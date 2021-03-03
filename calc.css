@@ -1,0 +1,87 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("img/blog2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#calculator {
+  width: 28%;
+  height: 90vh;
+  position: absolute;
+  top: 20px;
+  left: 35%;
+  border-radius: 10px;
+  background-color: rgb(247, 238, 238);
+  box-shadow: 0 0 5px 1px red;
+}
+#display {
+  width: 100%;
+  height: 8rem;
+  background-color: white;
+  box-shadow: 0 0 10px 1px rgba(151, 146, 146, 0.685) inset;
+}
+#history {
+  width: 98%;
+  height: 2rem;
+  /* border: 1px solid black; */
+  text-align: right;
+  font-size: 30px;
+  padding-top: 1rem;
+  /* margin-right: 10px; */
+}
+#value {
+  width: 98%;
+  height: 2.5rem;
+  /* border: 1px solid black; */
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 35px;
+  padding-top: 1.5rem;
+}
+#button {
+  width: 100%;
+  height: 76%;
+  /* margin-top: 20px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.oprand {
+  width: 22%;
+  height: 60px;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 15px 2px rgba(0, 0, 255, 0.103);
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#_0 {
+  width: 47%;
+}
+.oprand-4 {
+  background-color: rgb(76, 218, 218);
+}
+.oprand-8 {
+  background-color: red;
+}
+.oprand-12 {
+  background-color: rgba(45, 100, 219, 0.945);
+}
+.oprand-16 {
+  background-color: orange;
+}
+.oprand-19 {
+  background-color: yellow;
+}
